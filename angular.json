@@ -18,6 +18,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "baseHref": "/webpage/",
+
             "aot": true,
             "assets": [
               "src/favicon.ico",
@@ -26,6 +28,7 @@
             "styles": [
               "src/styles.css"
             ],
+            
             "scripts": []
           },
           "configurations": {
